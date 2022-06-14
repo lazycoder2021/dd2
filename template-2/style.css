@@ -1,0 +1,225 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+
+/*  container style start  */
+
+
+.container 
+{
+    width: 100%;
+    height: 130vh;
+    background-image: url(image/image.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+/*  nav style start  */
+
+
+.nav 
+{
+    //border: 1px solid black;
+    width: 80%;
+    height: 70px;
+    margin: 30px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  navleft  style start  */
+
+
+.navleft 
+{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navleft h3 
+{
+    font-size: 26px;
+    color: white;
+}
+.navleft span 
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+/*  navright style start  */
+
+
+.navright 
+{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.alink 
+{
+    font-size: 15px;
+    font-weight: 800;
+    word-spacing: 2px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/*  nav style end  */
+
+/*  section style start  */
+
+
+.section 
+{
+    //border: 1px solid black;
+    width: 78%;
+    height: 70%;
+    margin: 20px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*  bannertext style start  */
+
+
+.bannertext 
+{
+    //border: 1px solid black;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.bannertext h1 
+{
+    font-size: 37px;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+
+    line-height: 45px;
+}
+.bannertext p
+{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.icon
+{   
+    //border: 1px solid black;
+    width: 35%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconsection 
+{
+    //border: 1px solid black;
+    width: 43%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconsectionleft1
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconsectionleft1 img 
+{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.iconsectionleft
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconsectionleft img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.iconsectionright
+{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10px;
+}
+.iconsectionright p
+{
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+.iconsectionright span
+{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.lasttext
+{
+    //border: 1px solid black;
+    width: 70%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.lasttext span
+{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+.alink2 
+{
+    font-size: 14px;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+/*  bannertext style end  */
+
+/*  section style end  */
+
+/*  container style end  */
